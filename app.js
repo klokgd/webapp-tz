@@ -3,7 +3,6 @@ const db = require('./models/index');
 const userRoutes = require('./routes/userRoutes');
 const { Umzug, SequelizeStorage } = require('umzug');
 
-// const runMigrationsAndSeeders = require('./utils/migrationsRunner');
 const app = express();
 const port = 3000;
 
